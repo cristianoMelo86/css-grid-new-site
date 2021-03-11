@@ -1,0 +1,22 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .grid-header{
+        height: 10vh;
+        background-color: gold;
+        display: flex;
+        justify-content: space-between;
+
+        .logo{
+            width: 20%;
+        }
+        .navegacao{
+            width: 70%;
+        }
+    }
+
+    .grid-main{
+        height: 90vh;
+    }
+}
