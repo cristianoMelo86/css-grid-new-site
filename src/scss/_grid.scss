@@ -3,16 +3,18 @@
     grid-template-columns: 1fr;
 
     .grid-header{
-        height: 10vh;
-        background-color: gold;
+        height: 15vh;
+        padding: 0 1rem;
         display: flex;
         justify-content: space-between;
 
         .logo{
+            margin: 0;
             width: 20%;
-        }
+            height: 100%;
+         }
         .navegacao{
-            width: 70%;
+            width: 65%;
         }
     }
 

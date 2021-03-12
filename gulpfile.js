@@ -21,11 +21,11 @@ gulp.task('cache:js',gulp.series(function(){
 }));
 
 // TASK MOVER PASTAS E/OU ARQUIVOS
-/*
+
 gulp.task("move-assets", gulp.series(function(){
 	return gulp.src("./src/assets/*")
 		   .pipe(gulp.dest("dist/img/"))
-})); */
+}));
 
 gulp.task("move-js", gulp.series(['cache:js'],function(){
 	return gulp.src(["./node_modules/jquery/dist/jquery.min.js",
@@ -99,6 +99,7 @@ gulp.task("server", gulp.series(function() {
 }));
 
 gulp.task("default", gulp.series(["move-js",
+								  "move-assets",
 								  "move-fontawesome-font",
 								  "move-fontawesome-scss",
 								  "sass",
