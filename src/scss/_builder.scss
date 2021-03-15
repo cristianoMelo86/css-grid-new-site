@@ -1,0 +1,53 @@
+.builder{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    .description-jobs{
+        font-size: 2.1rem;
+        text-align: center;
+        margin: 20px 0 12px;
+        color: #3a3a3a;
+    }
+    hr{
+        width: 80%;
+        padding: 2px;
+        margin-bottom: 50px;
+        color: #3a3a3a;
+        background-color: #3a3a3a;
+    }
+
+    .card{
+        background-color: #eeeeee;
+        padding: 40px 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        color: #3a3a3a;
+            span{
+                background-color: royalblue;
+                padding: 4px 12px;
+                color: white;
+                font-weight: 700;
+            }
+
+        i{
+            font-size: 5.5rem;
+            margin-bottom: 0;
+        }
+        .text-card{
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.8em;
+        }
+        .card-body{
+            font-size: 1.3rem;
+            font-weight: 200;
+        }
+        .card-body{
+            line-height: 1.4rem;
+            font-size: 1rem;
+        }
+    }
+
+
+}// fecha builder
+
